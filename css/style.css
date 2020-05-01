@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@400;700&family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Yeseva+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0!important;
+}
+html{
+    scroll-behavior: smooth!important;
+}
+
+body {
+    
+
+    font-family: 'Gentium Book Basic', serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.clr {
+    clear: both;
+}
+.mtp{
+    margin-top: 100px;
+}
+
+/* Basic typography */
+/*start css*/
+#header{
+    position: absolute;
+   z-index: 78;
+    width:100%; 
+  
+    transition: all 0.5s linear;
+}
+.main-nav{}
+.main-nav ul li{
+   
+}
+.main-nav ul li a{
+    font-weight: 700;
+    font-size: 21px;
+    color: #ffffff!important;
+    text-transform: uppercase;
+     position: relative;
+    padding:7px 0;
+    transition: all 0.3s linear;
+    border-bottom:2px solid transparent;
+   
+}
+
+
+.main-nav ul li a:hover, .main-nav .nav-link.active{
+    border-color:#11281C;
+    color:darkgreen!important;
+}
+/*end of header*/
+/*start of banner*/
+.slider{
+    background:url("../images/bannerimg.jpg") left top no-repeat;
+   
+    background-size:cover ;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider:after{
+    content: "";
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index:-1;
+}
+.bnr_art h1{
+    font-weight: 700;
+    font-size: 90px;
+    color: #fff;
+    
+}
+.bnr_art .bnr_img img{
+    display: inline-block;
+}
+.bnr_art h2 span{
+    display: block;
+}
+.bnr_art .bnr_btn{
+    display: block;
+}
+.bnr_art .bnr_btn .btn{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-style:none;
+    border:1px solid #ffffff;
+    border-radius: 0!important;
+     transition: all 0.2s linear;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.bnr_art .bnr_btn .btn:hover{
+    background-color:rgba(255, 255, 255, 0.28);
+}
+#banner{
+    position: relative;
+}
+#banner .slick-dots{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:90%;
+}
+#banner .slick-dots li{
+    display: inline-block;
+    margin-right: 5px;
+}
+#banner .slick-dots li button{
+    width:20px;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    border-style:none;
+    border-radius:50%;
+    border:2px solid #0D371D;
+    border-color:#0D371D;
+    background-color:transparent;
+    position: relative;
+    font-size: 0;
+}
+#banner .slick-dots li button:after{
+    content: "";
+    position: absolute;
+    width:10px;
+    height:10px;
+    background-color: #0D371D;
+    line-height: 10px;
+    text-align: center;
+    border-style:none;
+    border-radius:50%;
+    left: 50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+#banner .slick-dots li.slick-active button:after{
+    opacity: 1;
+}
+/*end of banner*/
+/*start of about*/
+#about{
+    background:url("../images/abtbanner.jpg")left top no-repeat;
+    -webkit-background-size: ;
+    background-size:cover ;
+    padding:85px 0;
+}
+.abt_art h2{
+    font-weight: 700;
+    font-size: 35px;
+    color: #cc9900;
+    text-transform: capitalize;
+    
+}
+.abt_art p{
+     font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4c4c4c;
+       line-height: 24px;
+    margin-top: 30px;
+     margin-bottom: 56px;
+}
+/*end of about*/
+/*start of igredients*/
+#Igredients{
+    background:url("../images/banner2.jpg") left top no-repeat;
+ 
+    background-size:cover;
+    padding:100px 0;
+}
+.igdt_art{
+    padding:80px 70px;
+    background-color: rgba(0, 0, 0, 0.67);
+}
+.igdt_art h2{
+     font-weight: 700;
+    font-size: 35px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+ .igdt_art p{
+       font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+     margin-top: 30px;
+    color:#fff;
+   
+    
+
+}
+.igdt_menu{
+    margin-top: 70px;
+}
+.igdt_menu ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.igdt_menu ul li a img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+/*end of igredients*/
+/*start of menu*/
+#menu{
+     background:url("../images/abtbanner.jpg")left top no-repeat;
+    background-size:cover ;
+    padding:100px 0;
+}
+.menu_cont .Appetisers h2{
+     font-weight: 700;
+    font-size: 36px;
+    color: #cc9900;
+    text-transform: capitalize;
+}
+.menu_cont .Appetisers .apptisers_menu{
+    text-align: left;
+}
+.menu_cont .Appetisers .apptisers_menu ul li a{
+     font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#4c4c4c;
+      display: block;
+    white-space: nowrap;
+    margin-top: 10px;
+} 
+#menu .menu_cont .Appetisers .apptisers_menu ul li .wsp {
+    font-size: 21px;
+    color: #cc9900!important;
+    word-spacing: 327px;
+     border-bottom:1px solid #cc9900;
+    padding-bottom: 10px;
+  
+   
+}
+#menu .menu_cont .Appetisers .apptisers_menu ul li .ewsp{
+    word-spacing: 409px !important;
+   
+  
+}
+.Salads h2{
+    font-weight: 700;
+    font-size: 36px;
+    color: #cc9900;
+    text-transform: capitalize;
+}
+.apptisers_menu{
+    text-align: left;
+}
+.apptisers_menu ul li a{
+     font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#4c4c4c;
+      display: block;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.apptisers_menu ul li .wsp{
+      font-size: 21px;
+    color: #cc9900!important;
+    word-spacing: 337px;
+     border-bottom:1px solid #cc9900;
+    padding-bottom: 10px;
+}
+.spl_offer{
+    border:1px solid #cc9900;
+    margin-top: 10px;
+    padding:10px;
+    position: relative;
+}
+.spl_offer p{
+    display:inline-block;
+    color: #fff;
+    background-color:#D5B867;
+    padding:4px 12px;
+    position: absolute;
+    top:-33px;
+    right:-1px;
+}
+.Starters h2{
+      font-weight: 700;
+    font-size: 36px;
+    color: #cc9900;
+    text-transform: capitalize;
+}
+.Starters_menu{
+    text-align: left;
+}
+.Starters_menu ul li a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#4c4c4c;
+      display: block;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.Starters_menu ul li .wsp{
+     font-size: 21px;
+    color: #cc9900!important;
+    word-spacing: 373px;
+     border-bottom:1px solid #cc9900;
+    padding-bottom: 10px;
+}
+
+.Starters_menu ul li .ewsp{
+    word-spacing: 404px;
+}
+.Main_Dishes{
+margin-top: 90px;
+}
+.Main_Dishes h2{
+    font-weight: 700;
+    font-size: 36px;
+    color: #cc9900;
+    text-transform: capitalize;
+}
+.Main_Dishes_menu{
+    text-align:left;
+}
+.Main_Dishes_menu ul li a{
+     font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#4c4c4c;
+      display: block;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+
+.Main_Dishes_menu ul li .wsp{
+    font-size: 21px;
+    color: #cc9900!important;
+    word-spacing: 348px;
+     border-bottom:1px solid #cc9900;
+    padding-bottom: 10px;
+}
+.Main_Dishes_menu ul li .ewsp1{
+    word-spacing: 308px;
+}
+.Main_Dishes_menu ul li .ewsp2{
+    word-spacing: 400px;
+}
+
+.main_dish_offer{
+     border:1px solid #cc9900;
+    margin-top: 10px;
+    /*! padding:11px; */
+    position: relative;
+     padding-left: 10px;
+     padding: 17px 8px;
+}
+.main_dish_offer p{
+     display:inline-block;
+    color: #fff;
+    background-color:#D5B867;
+    padding:4px 12px;
+    position: absolute;
+    top:-33px;
+    right:-1px;
+}
+/*end of menu*/
+/*start of reviews*/
+#reviews{
+    background:url("../images/revw_banner.jpg")left top no-repeat;
+    -webkit-background-size:cover ;
+    background-size:cover ;
+    padding:100px 400px;
+}
+.rvw_art h2{
+    font-size: 36px;
+    color: #ffffff;
+      font-weight: 700;
+    text-transform: capitalize;
+}
+.rvw_art p span{
+    display:block;
+}
+.rvw_art{
+    background-color: rgba(0, 0, 0, 0.70);
+   padding-top:70px;
+    padding-bottom: 100px;
+    padding-left:50px;
+    padding-right:50px;
+    
+}
+.rvw_art p{
+      font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+/*     margin-top: 30px;*/
+    color:#fff;
+    margin-top: 40px;
+}
+/*end of review*/
+/*start of Reservations*/
+#Reservations{
+      background:url("../images/abtbanner.jpg")left top no-repeat;
+    background-size:cover ;
+    padding:100px 0;
+}
+.galary{
+    width:100%;
+}
+.galary_img{
+    width:48%;
+    float:left;
+    display:block;
+    margin-right: 2%;
+}
+.galary_img img{
+    width:100%;
+    height:100%;
+}
+.revw_art h2{
+     font-weight: 700;
+    font-size: 36px;
+    color: #cc9900;
+    text-transform: capitalize;
+}
+.revw_art p{
+     font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+/*     margin-top: 30px;*/
+    color:#4c4c4c;
+    margin-top: 40px;
+}
+#Reservations form .form-row {
+   padding:30px;
+   
+    
+}
+#Reservations form .form-row input{
+    border-style:none;
+    border:1px solid #C8C6C6;
+    border-radius: 0;
+}
+#Reservations form .form-row input:hover{
+    border-color:#c9a131;
+}
+#Reservations form .form-row input:placeholder-shown{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7c7c7c;
+    text-transform: capitalize;
+}
+
+#Reservations form .form-row label{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #c9a131;
+}
+#Reservations form .form-row .opt select{
+    width:100%;
+    padding:8px;
+    border-style:none;
+    border:1px solid #C8C6C6;
+        
+         font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7c7c7c;
+    transition:all 0.2s linear;
+}
+#Reservations form .form-row .opt select:hover{
+    border-color:#c9a131
+}
+#Reservations form .btn{
+     font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: #C9A131;
+    border-style:none;
+    border:1px solid transparent;
+    border-radius: 0!important;
+    text-transform:capitalize;
+     transition: all 0.2s linear;
+      margin-top: 30px;
+    margin-left: 22px;
+}
+#Reservations form .btn:hover{
+    background-color: transparent;
+    border-color: #C9A131;
+    color: #C9A131;
+  
+}
+/*end of Reservations*/
+/*start of footer*/
+#footer{
+    background-color: #000;
+    padding:70px 0;
+}
+.ftr_cont1 h2,.ftr_cont2 h2, .ftr_cont3 h2{
+     font-size: 36px;
+    color: #ffffff;
+      font-weight: 700;
+    text-transform: capitalize;
+}
+.ftr_cont1 p, .ftr_cont2 p, .ftr_cont3 p{
+     font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+/*     margin-top: 30px;*/
+    color:#ffffff;
+
+}
+.ftr_cont2 p span{
+    font-weight: 700;
+}
+.ftr_cont2 .ftr_menu ul li, .ftr_cont3 .ftr_menu ul li{
+    display: inline-block;
+}
+.ftr_cont2 .ftr_menu ul li a, .ftr_cont3 .ftr_menu ul li a{
+    display: block;
+}
+.ftr_cont2 .ftr_menu ul li a i, .ftr_cont3 .ftr_menu ul li a i{
+    font-size: 30px;
+    color: #fff;
+    transition: all 0.2s linear;
+}
+.ftr_cont2 .ftr_menu ul li a i:hover, .ftr_cont3 .ftr_menu ul li a i:hover{
+    opacity: 0.7;
+}
+.ftr_cont3 .ftr_menu{
+    margin-top: 57px;
+}
+.ftr_cont1 p .span{
+    display: block;
+    font-size: 400!important;
+}
+/*end of footer*/
+.top i{
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    border-style:none;
+    border:1px solid #C08539;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #C08539;
+    position: fixed;
+    right:2%;
+    bottom:2%;
+    transition:all 0.2s linear;
+    z-index: 98;
+
+    
+}
+.top i:hover{
+    color: #C08539;
+    background-color:transparent;
+    border-collapse:#C08539;
+    
+}
+.sticky{
+    width:100%;
+    position: fixed!important;
+    left:0;
+    top:0;
+    background-color:#000;
+    transition: all 0.5s linear;
+    padding: 10px 0;
+
+   
+}
+#banner .fa-angle-left{
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    font-size: 30px;
+    border-style: none;
+    border:2px solid #0D371D;
+    border-radius: 50%;
+    background-color:transparent;
+    left:5%;
+    top:50%;
+    transform: translateY(-50%);
+    position: absolute;
+    text-align: center;
+    z-index: 65;
+    color: #fff;
+    
+}
+
+#banner .fa-angle-right{
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    font-size: 30px;
+    border-style: none;
+    border-radius: 50%;
+    border:2px solid #0D371D;
+    background-color:transparent;
+    right:5%;
+    top:50%;
+    transform: translateY(-50%);
+    position: absolute;
+     text-align: center;
+    z-index: 65;
+    color: #fff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 

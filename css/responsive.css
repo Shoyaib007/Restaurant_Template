@@ -1,0 +1,262 @@
+@media (max-width:575px){
+   #header .navbar-toggler{
+        background-color: #fff!important;
+    }
+    .bnr_art h1 {
+    font-size: 32px;
+    }
+    .abt_art h2 {
+    font-size: 28px;
+    }
+    #menu .menu_cont .Appetisers .apptisers_menu ul li .ewsp {
+    word-spacing: 162px !important;
+    }
+    .menu_cont .Appetisers .apptisers_menu ul li a {
+    font-size: 11px;
+    }
+    #menu .menu_cont .Appetisers .apptisers_menu ul li .wsp {
+    word-spacing: 74px;
+    }
+    .apptisers_menu ul li .wsp {
+    word-spacing: 99px;
+    }
+    .apptisers_menu ul li a{
+        font-size: 11px;
+    }
+    .spl_offer {
+    padding: 8px 6px;
+    }
+    .Starters_menu ul li .ewsp {
+    word-spacing: 150px!important;
+       }
+    
+    .Starters_menu ul li .ewsp1{
+        word-spacing: 113px !important;
+    }
+    .Starters_menu ul li .wsp {
+    word-spacing: -55px;
+    }
+    .Starters_menu ul li a{
+        font-size: 11px;
+    }
+    
+    .Main_Dishes_menu ul li .ewsp1 {
+    word-spacing: 60px;
+    }
+    .Main_Dishes_menu ul li a{
+        font-size: 11px;
+    }
+    .Main_Dishes_menu ul li .wsp {
+    word-spacing: 104px;
+    }
+    
+    .Main_Dishes_menu ul li .wsp {
+    word-spacing: 101px;
+    }
+    .Main_Dishes_menu ul li .ewsp2 {
+    word-spacing: 159px;
+    }
+    #reviews {
+    padding: 100px 0;
+}
+    .sm_wsp{
+        word-spacing: 64px!important;
+    }
+    .revw_art h2 {
+    font-size: 27px;
+    margin-top: 30px;
+    }
+    .ftr_cont1, .ftr_cont2, .ftr_cont3, .ftr_cont4{
+        margin-top: 30px;
+    }
+    .ftr_cont1 h2, .ftr_cont2 h2, .ftr_cont3 h2{
+        font-size: 28px;
+    }
+    .main-nav ul li a {
+    font-size: 13px;
+        padding:0;
+    }
+    .sticky{
+        position: static!important;
+    }
+
+}
+
+
+@media (min-width:576px) and (max-width:767px){
+    #header .navbar-toggler{
+        background-color: #fff!important;
+    }
+    .bnr_art h1 {
+    font-size: 32px;
+    }
+    .abt_art h2 {
+    font-size: 28px;
+    }
+    #menu .menu_cont .Appetisers .apptisers_menu ul li .ewsp {
+    word-spacing: 162px !important;
+    }
+    .menu_cont .Appetisers .apptisers_menu ul li a {
+    font-size: 11px;
+    }
+    #menu .menu_cont .Appetisers .apptisers_menu ul li .wsp {
+    word-spacing: 74px;
+    }
+    .apptisers_menu ul li .wsp {
+    word-spacing: 99px;
+    }
+    .apptisers_menu ul li a{
+        font-size: 11px;
+    }
+    .spl_offer {
+    padding: 8px 6px;
+    }
+    .Starters_menu ul li .ewsp {
+    word-spacing: 150px!important;
+       }
+    
+    .Starters_menu ul li .ewsp1{
+        word-spacing: 113px !important;
+    }
+    .Starters_menu ul li .wsp {
+    word-spacing: -55px;
+    }
+    .Starters_menu ul li a{
+        font-size: 11px;
+    }
+    
+    .Main_Dishes_menu ul li .ewsp1 {
+    word-spacing: 60px;
+    }
+    .Main_Dishes_menu ul li a{
+        font-size: 11px;
+    }
+    .Main_Dishes_menu ul li .wsp {
+    word-spacing: 104px;
+    }
+    
+    .Main_Dishes_menu ul li .wsp {
+    word-spacing: 101px;
+    }
+    .Main_Dishes_menu ul li .ewsp2 {
+    word-spacing: 159px;
+    }
+    #reviews {
+    padding: 100px 0;
+}
+    .sm_wsp{
+        word-spacing: 64px!important;
+    }
+    .revw_art h2 {
+    font-size: 27px;
+    margin-top: 30px;
+    }
+    .ftr_cont1, .ftr_cont2, .ftr_cont3, .ftr_cont4{
+        margin-top: 30px;
+    }
+    .ftr_cont1 h2, .ftr_cont2 h2, .ftr_cont3 h2{
+        font-size: 28px;
+    }
+    .main-nav ul li a {
+    font-size: 13px;
+        padding:0;
+    margin-top: 10px;
+    }
+    .sticky{
+        position: static!important;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .bnr_art h1 {
+    font-size: 49px;
+    }
+    .main-nav ul li a{
+    font-size:17px;
+    padding: 7px 0;
+    }
+    
+    .Main_Dishes_menu ul li a, .Starters_menu ul li a, .apptisers_menu ul li a, #menu .colmd ul li a{
+        font-size: 12px;
+    } 
+    #menu .menu_cont .Appetisers .apptisers_menu ul li .ewsp {
+    word-spacing: 193px !important
+    }
+    
+    #menu .menu_cont .Appetisers .apptisers_menu ul li .wsp{
+    word-spacing: 109px;
+    }
+    .apptisers_menu ul li .wsp {
+    word-spacing: 135px;
+    }
+    .Starters_menu ul li .ewsp {
+    word-spacing: 197px !important;
+    }
+    .Starters_menu ul li .wsp {
+    word-spacing: 158px;
+    }
+    .Main_Dishes_menu ul li .wsp {
+    word-spacing: 136px;
+    }
+    .Main_Dishes_menu ul li .ewsp2 {
+    word-spacing: 189px;
+    }
+    .sm_wsp{
+        word-spacing: 100px!important;
+    }
+    #reviews {
+    padding: 100px 0!important;
+    }
+      .ftr_cont1, .ftr_cont2, .ftr_cont3, .ftr_cont4{
+        margin-top: 30px;
+    }
+    .ftr_cont1 h2, .ftr_cont2 h2, .ftr_cont3 h2{
+        font-size: 25px;
+        white-space: nowrap;
+    }
+    
+    
+}
+@media (min-width:992px) and (max-width:1199px){
+        .Main_Dishes_menu ul li a, .Starters_menu ul li a, .apptisers_menu ul li a, #menu .colmd ul li a{
+        font-size: 12px;
+    } 
+    #menu .menu_cont .Appetisers .apptisers_menu ul li .ewsp {
+    word-spacing: 193px !important
+    }
+    
+    #menu .menu_cont .Appetisers .apptisers_menu ul li .wsp{
+    word-spacing: 109px;
+    }
+    .apptisers_menu ul li .wsp {
+    word-spacing: 135px;
+    }
+    .Starters_menu ul li .ewsp {
+    word-spacing: 197px !important;
+    }
+    .Starters_menu ul li .wsp {
+    word-spacing: 158px;
+    }
+    .Main_Dishes_menu ul li .wsp {
+    word-spacing: 136px;
+    }
+    .Main_Dishes_menu ul li .ewsp2 {
+    word-spacing: 189px;
+    }
+    .sm_wsp{
+        word-spacing: 100px!important;
+    }
+   #reviews {
+    padding: 100px 0!important;
+    }
+      .ftr_cont1, .ftr_cont2, .ftr_cont3, .ftr_cont4{
+        margin-top: 30px;
+    }
+    .ftr_cont1 h2, .ftr_cont2 h2, .ftr_cont3 h2{
+        font-size: 25px;
+        white-space: nowrap;
+    }
+}
+@media (min-width:1200px) {
+    
+}
